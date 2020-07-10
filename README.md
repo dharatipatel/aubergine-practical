@@ -34,5 +34,14 @@
         * Sign up on https://bitly.com/a/sign_in
         * After login to go Profile settings > Generic access token
         
+   **6. Runserver for local development
+   
+   * `python manage.py runserver`
+   
+   
+   **7. Run celery worker
+   
+   * `celery worker -A aubergine_test -l info`
+        
   
   
